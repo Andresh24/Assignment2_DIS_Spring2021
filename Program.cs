@@ -298,14 +298,14 @@ namespace Assignment2_DIS_Spring2021
         {
             try
             {
-                char[] anArray = new char[indices.Length];
+                char[] newarray = new char[indices.Length];
                 for (int ctr = 0; ctr < indices.Length; ++ctr)
                 {
-                    anArray[indices[ctr]] = s[ctr];
+                    newarray[indices[ctr]] = s[ctr];
                 }
                 for (int ctr = 0; ctr < indices.Length; ++ctr)
                 {
-                    Console.Write(anArray[ctr]);
+                    Console.Write(newarray[ctr]);
                 }
                 Console.WriteLine();
 
